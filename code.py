@@ -10,15 +10,15 @@ option = raw_input("Enter C for Circle, S for square or T for Triangle: ")
 option = option.upper()
 
 if option == "C":
-  radius = float(raw_input("Enter radius: "))
-  area = pi * radius ** 2
-  print ("Area: %.2f." % (area))
+    radius = float(raw_input("Enter radius: "))
+    area = pi * radius ** 2
+    print ("Area: %.2f." % (area))
   
 elif option == "T":
-  base = float(raw_input("Enter base: "))
-  height = float(raw_input("Enter height: "))
-  area = 0.5 * base * height
-  print ("Area: %.2f." % (area))
+    base = float(raw_input("Enter base: "))
+    height = float(raw_input("Enter height: "))
+    area = 0.5 * base * height
+    print ("Area: %.2f." % (area))
     
 elif option == "S":
     length = float(raw_input("Enter length of side: "))
@@ -26,4 +26,4 @@ elif option == "S":
     print ("Area : %.2f." % (area))
   
 else:
-  print "Error! Invalid shape selector specified."
+    print "Error! Invalid shape selector specified."
